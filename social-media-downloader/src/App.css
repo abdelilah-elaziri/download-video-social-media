@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.error-message {
+  color: #ff4d4f; /* A common red for errors */
+  background-color: #fff2f0; /* Light reddish background for emphasis */
+  border: 1px solid #ffccc7; /* Light red border */
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 4px;
+  text-align: left; /* Align text to the left if used in a centered container */
+}
+
+.error-message p {
+  margin: 0; /* Remove default paragraph margin */
+  font-weight: 500;
+}
